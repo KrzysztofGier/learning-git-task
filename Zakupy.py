@@ -5,4 +5,5 @@ shopping_dict={
 
 for i in shopping_dict:
     print("Idę do "+i.capitalize()+", kupuję tu następujące rzeczy" +str(shopping_dict[i]))
-
+ctr = sum(map(len, shopping_dict.values()))
+print("W sumie kupuje", ctr , "produktów.")
